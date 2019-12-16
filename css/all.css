@@ -1,43 +1,3 @@
-@font-face {
-    font-family: 'novecentosanswide';
-    src: url('../fonts/novecentosanswide-normal-webfont.eot');
-    src: url('../fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/novecentosanswide-normal-webfont.woff') format('woff'),
-         url('../fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
-         url('../fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'novecentosanswide';
-    src: url('../fonts/novecentosanswide-bold-webfont.eot');
-    src: url('../fonts/novecentosanswide-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/novecentosanswide-bold-webfont.woff') format('woff'),
-         url('../fonts/novecentosanswide-bold-webfont.ttf') format('truetype'),
-         url('../fonts/novecentosanswide-bold-webfont.svg#novecentosanswidebold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'novecento_sans_widebook';
-    src: url('../fonts/novecentosanswide-book-webfont.eot');
-    src: url('../fonts/novecentosanswide-book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/novecentosanswide-book-webfont.woff') format('woff'),
-         url('../fonts/novecentosanswide-book-webfont.ttf') format('truetype'),
-         url('../fonts/novecentosanswide-book-webfont.svg#novecento_sans_widebook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'novecento_sans_widemedium';
-    src: url('../fonts/novecentosanswide-medium-webfont.eot');
-    src: url('../fonts/novecentosanswide-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/novecentosanswide-medium-webfont.woff') format('woff'),
-         url('../fonts/novecentosanswide-medium-webfont.ttf') format('truetype'),
-         url('../fonts/novecentosanswide-medium-webfont.svg#novecento_sans_widemedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -90,23 +50,6 @@ a[href], label[for], select,
 input[type=checkbox], input[type=radio] {
 	cursor: pointer;
 }
-
-button, input[type=button], input[type=image], 
-input[type=reset], input[type=submit] {
-	padding: 0;
-	overflow: visible;
-	cursor: pointer;
-}
-input[type=text], input[type=email], input[type=reset], input[type=button], input[type=submit], button{
-	-webkit-appearance: none;
-	-webkit-border-radius: 0;
-}
-input[type=url], input[type=password], input[type=text], input[type=email], input[type=reset], input[type=button], input[type=submit], button, textarea{
-     -webkit-appearance: none;
-     -webkit-border-radius: 0;
-     box-sizing: border-box;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;
-}
-
 button::-moz-focus-inner, 
 input[type=button]::-moz-focus-inner, 
 input[type=image]::-moz-focus-inner, 
@@ -135,7 +78,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #820000/*#2e0854*/;
+    background: #820000;
 }
 .wrapper-holder.grey{background: #2b2c28/*#28292b*/;}
 #header {
@@ -164,7 +107,7 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #fffae2/*#fff*/;
+	color: #fffae2;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
@@ -186,7 +129,7 @@ a:hover{text-decoration:underline;}
 }
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
-	color: #58ab9e/*#aeecc2*/;
+	color: #58ab9e;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -245,59 +188,7 @@ h2.slogan{
 }
 
 /*portfolio*/
-.sub_nav {
-	position: relative;
-	display: table;
-	margin: 0 auto 79px;
-	padding: 0 0 0 10px;
-	text-align: center;
-}
-.sub_nav li {
-	padding: 0 0 0 45px;
-	display: inline-block;
-}
-.sub_nav a {
-	color: #fffae2;
-	font-size: 14px;
-	line-height: 16px;
-	text-transform: uppercase;
-	padding: 0 0 10px;
-	border-bottom: 4px solid #fffae2;
-	font-family: 'novecentosanswide';
-	font-weight: normal;
-}
-
-/* begin add */
-.sub_nav li {
-	color: #fffae2;
-	font-size: 14px;
-	line-height: 16px;
-	text-transform: uppercase;
-	margin: 0 22px;
-	padding: 0 0 10px;
-	border-bottom: 4px solid #fffae2;
-	font-family: 'novecentosanswide';
-	font-weight: normal;
-}
-.sub_nav li:hover {
-	color: #58ab9e;
-	border-bottom: 4px solid #58ab9e;
-	text-decoration: none;
-	cursor: pointer;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-.sub_nav .active {
-    color: #58ab9e;
-	border-bottom: 4px solid #58ab9e;
-	text-decoration: none;
-	cursor: pointer;
-}
-/* end add */
 .item-list {
-	overflow: hidden;
 	text-align:center;
 	margin: 0 0 0 -24px;
 }
@@ -305,7 +196,6 @@ h2.slogan{
 	display:inline-block;
 	margin: 0 0 25px 24px;
 	vertical-align: top;
-	font-size: 0;
 }
 .item {
 	text-align: center;
@@ -320,92 +210,60 @@ h2.slogan{
 	height:auto;
 	border-radius: 20px;
 }
-#peril_hover {
-    display: none;
-    margin-top: 44%;
-    margin-left: 9%;
-	height: 26%;
-    left: 0;
+.hover {
+    display: block;
+	height: 100%;
     position: absolute;
+    width: 100%;
     top: 0;
-    width: 50%;
     background: #131515;
 	opacity: 0.95;
 	border-radius: 20px;
-    transition: display 2s ease-in-out;
-	/*behavior: url(css/PIE.htc);*/
+    overflow: visible;
+    visibility: hidden;
+}
+#peril_hover {
+    height:303px;
 }
 #punchout_hover {
-    display: none;
-    margin-top: 44%;
-    margin-left: 43%;
-	height: 29%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 50%;
-    background: #131515;
-	opacity: 0.95;
-	border-radius: 20px;
-	/*behavior: url(css/PIE.htc);*/
+    height: 323px
 }
 #teemin_hover {
-    display: none;
-    margin-top: 28%;
-    margin-left: 9%;
-	height: 29%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 50%;
-    background: #131515;
-	opacity: 0.95;
-	border-radius: 20px;
-	/*behavior: url(css/PIE.htc);*/
+    height: 323px;
 }
 #dagger_hover {
-    display: none;
-    margin-top: 26%;
-    margin-left: 43%;
-	height: 31%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 50%;
-    background: #131515;
-	opacity: 0.95;
-	border-radius: 20px;
-	/*behavior: url(css/PIE.htc);*/
+    height: 340px;
 }
-#peril_hover:hover {
-    display:block;
+.hover:hover {
+    visibility: visible;
 }
-#punchout_hover:hover {
-    display:block;
-}
-#teemin_hover:hover {
-    display:block;
-}
-#dagger_hover:hover {
-    display:block;
-}
-#peril_img:hover ~ #peril_hover {
-    display: block;
-}
-#punchout_img:hover ~ #punchout_hover {
-    display: block;
-}
-#teemin_img:hover ~ #teemin_hover {
-    display: block;
-}
-#dagger_img:hover ~ #dagger_hover {
-    display: block;
+.image:hover > .hover {
+    visibility: visible;
 }
 .item-content {
-    padding: 20px;
+    color: #fffae2;
+    height: 100%;
+    width: 100%;
 }
-.my_job {
-    padding-top: 15px;
+.item-content h3 {
+    padding: 10px 0;
+}
+.item-content p {
+    padding: 0 10px 10px;
+}
+.item-content a {
+    padding: 0 10px 10px;
+    text-decoration:underline;
+    transition: color .25s ease-in-out;
+}
+.item-content a:hover {
+    color: #58ab9e;
+}
+.repo {
+    float: left;
+}
+.build {
+    float: right;
 }
 /*contact*/
 .clear{clear: both;}
@@ -433,8 +291,7 @@ h2.slogan{
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
-/*footer
- */
+/*footer*/
 #footer {
     width:100%;
     overflow:hidden;
@@ -447,45 +304,8 @@ h2.slogan{
 	padding: 100px 0 20px;
 	color: #2b2c28;
 }
-/* begin add	 */
-.popup_portfolio{
-	max-width: 1132px;
-    display: none;
-}
-.popup_portfolio h3{
-	padding-top:26px;
-	font-family: 'novecentosanswide';
-	font-weight:bold;
-	color: #63666a;
-	font-size: 18px;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-.popup_portfolio time{
-	font-family: 'novecentosanswide';
-	color: #abacaf;
-	font-size: 12px;
-	line-height: 12px;
-	text-transform: uppercase;
-}
-.popup_portfolio p{
-	padding: 17px 0 8px;
-	color: #808286;
-	font-size: 16px;
-	line-height: 30px;
-}
-.popup_portfolio img {
-	width: 100%;
-	height: auto;
-	border-radius: 8px;
-}
 #about {
     padding-top: 68px;
     padding-bottom: 50px;
 }
-/* end add	 */
-
-
-/* begin add	 */
-/* end add	 */
 }
